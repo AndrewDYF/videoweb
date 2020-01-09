@@ -13,6 +13,7 @@ see [egg docs][egg] for more detail.
 $ npm i
 $ npm run dev
 $ open http://localhost:7001/
+$ open http://127.0.0.1:7001/admin/login
 ```
 
 ### Deploy
