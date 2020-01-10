@@ -7,7 +7,7 @@ layui.config({
   // 添加视频
   $('.linksAdd_btn').click(function() {
     const index = layui.layer.open({
-      title: '添加视频',
+      title: 'add video',
       type: 2,
       content: [ '/admin/video/add' ],
       area: [ '850px', '800px' ],
