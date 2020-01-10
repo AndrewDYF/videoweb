@@ -16,14 +16,14 @@ layui.config({
       },
       success(result) {
         if (result) {
-          const index = layer.msg('数据更新中，请稍候', {
+          const index = layer.msg('Please wait while the data is updated', {
             icon: 16,
             time: false,
             shade: 0.8,
           });
           setTimeout(function() {
             layer.close(index);
-            layer.msg('数据更新成功！');
+            layer.msg('Data updated successfully！');
             layer.closeAll('iframe');
             window.location.href = '/video/manager';
           }, 2000);
