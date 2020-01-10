@@ -35,7 +35,7 @@ layui.config({
       processData: false,
       success(result) {
         if (result) {
-          top.layer.msg('视频添加成功！');
+          top.layer.msg('Video added successfully!');
           layer.closeAll('iframe');
           // 刷新父页面
           parent.location.reload();
