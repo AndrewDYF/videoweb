@@ -66,7 +66,7 @@
 	<div class="site-tree-mobile layui-hide"><i class="layui-icon">&#xe602;</i></div>
 	<div class="site-mobile-shade"></div>
 	<script>
-		$(function () { 
+		window.onload = function () {
 			var socket = io('/',{
 				transports:['websocket']
 			})
@@ -109,7 +109,7 @@
 				myChart.setOption(option);
 				}
 			
-		 })
+		 };
 	</script>
 </body>
 </html>
