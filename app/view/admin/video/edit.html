@@ -16,20 +16,20 @@
 	<form class="layui-form">
 		<input type="hidden" id="_id" value="<%=response._id%>">
 		<div class="layui-form-item">
-			<label class="layui-form-label">标题：</label>
+			<label class="layui-form-label">title：</label>
 			<div class="layui-input-block" style="width: 600px;margin-top: 30px;">
-				<input type="text" id="title" class="layui-input" lay-verify="required" placeholder="请输入标题名" value="<%=response.title%>">
+				<input type="text" id="title" class="layui-input" lay-verify="required" placeholder="please enter title" value="<%=response.title%>">
 			</div>
 		</div>
 		<div class="layui-form-item">
-				<label class="layui-form-label">类型：</label>
+				<label class="layui-form-label">type：</label>
 				<div class="layui-input-block" style="width: 600px;">
 				  <select id="category" lay-verify="required">
-					<option value="青春">青春</option>
-					<option value="梦想">梦想</option>
-					<option value="偶像">偶像</option>
-					<option value="校园">校园</option>
-					<option value="其它">其它</option>
+					<option value="青春">young</option>
+					<option value="梦想">dream</option>
+					<option value="偶像">idol</option>
+					<option value="校园">school</option>
+					<option value="其它">other</option>
 				  </select>
 				</div>
 		</div>
